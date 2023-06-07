@@ -1,0 +1,31 @@
+section 
+        {
+            background-color: #FF55BB;
+            text-align: center;
+        }
+        h1{
+            color:#fff
+        }
+        h2{
+            color :#6655ff
+        }
+
+        p{
+            color:red;
+        }
+        
+        .note {
+            front-size: 20px;
+        }
+
+        #id-selector-demo{
+            color:green   
+        }
+
+        li{
+            color:blue;
+        }
+        
+        *{ 
+            text-align: center;
+        }

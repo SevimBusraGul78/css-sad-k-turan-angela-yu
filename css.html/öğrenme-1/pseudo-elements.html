@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            font-weight:bold;
+            color: brown;
+            word-spacing: 2px; /*kelimeler arasında boşluk */
+            letter-spacing: 1px;
+        }
+        p.about::first-line{ 
+        /* klası about olan p etiketi bul arada boşluk olması farklı anlamlar çeker*/
+           color:rgb(0, 255, 55)
+        }
+
+        p::first-letter {
+            font-size: 48px;
+
+        }
+
+        p::selection {
+            background-color: rgba(30, 210, 132, 0);
+        }
+
+        p::before{
+            content:"----";    
+        }
+        p::after {
+            content:'\261D';
+            font: size 80px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Pseudo elements -->
+
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatem doloremque incidunt nam, et debitis in fugit iure nostrum suscipit officiis. Incidunt eius recusandae temporibus et modi repellendus pariatur cupiditate.
+  </p>
+
+  <p class="about">
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia adipisci doloribus, omnis exercitationem iusto, illo quae saepe odio sint dolores corrupti rem atque laborum est repudiandae animi voluptates cupiditate incidunt?
+
+
+  </p>
+
+
+
+
+</body>
+</html>
